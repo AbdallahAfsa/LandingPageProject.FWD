@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    
+  </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>Top 10 Future Technologies</h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="IOT" class="your-active-class">
+      <div class="landing__container">
+        <h2> 1. The Internet of Things :</h2>
+        <p>Since its inception, the top-most IOT development companies have been using this technology to improve productivity, inventory tracking, management, and security processes. It is estimated that by the year 2020, almost a quarter of billion cares will get hooked by the Internet, making them even smarter.</p>
+
+        <p>The IoT technology is eventually getting its pace and, as many of the reports suggest, in the near future, we are going to see IoT devices becoming more and more popular, for many general purpose computing tasks.</p>
+      </div>
+    </section>
+    <section id="section2" data-nav="Blockchain">
+      <div class="landing__container">
+        <h2> 2. Blockchain Technology :</h2>
+        <p>Blockchain, the brainchild of an individual or group of individuals known by the pseudonym, <a href="https://en.wikipedia.org/wiki/Satoshi_Nakamoto?ref=hackernoon.com">Satoshi Nakamoto</a>, has applications reaching far beyond the financial transactions.</p>
+
+        <p>Companies have applied the blockchain technology to almost everything, from simplifying tracking & access to information in academia to amusing and interesting games that use complex algorithms to create some unique experiences. While pervasive in only a handful of industries right now, by the year 2020 the world is going to see its huge adoption.</p>
+      </div>
+    </section>
+    <section id="section3" data-nav="AI">
+      <div class="landing__container">
+        <h2> 3. Artificial Intelligence :</h2>
+        <p>The above image shows how Artificial Intelligence will take over the world in the next few years. This technology seems to be making its place in the present as well as future technology due to the advanced technical changes it has been making worldwide.</p>
+        <p>The everyday tasks of Artificial Intelligence of enabling the customers to see through facial recognition, read the messages and reports, speak, and record the emotions through effective computing will help AI become an independent technology that no longer needs human assistance to learn anything.</p>
+      </div>
+    </section>
+    <section id="section4" data-nav="NLP">
+      <div class="landing__container">
+        <h2> 4. NLP :</h2>
+        <p>As the NLP technology evolves over years, computers will be extending their present capabilities from processing to understanding human language in quite a holistic way.</p>
+        <p>Until now, NLP is restricted to infer only a limited range of human emotions including the feelings of anger or joy. Eventually, NLP will be programmed in such a way that it understands more complex elements of human emotions such as sarcasm, humor, irony, cynicism, and satire.</p>
+      </div>
+    </section>
+    <section id="section5" data-nav="Facial Recognition">
+      <div class="landing__container">
+        <h2> 5. Facial Recognition :</h2>
+        <p>Your face is going to become your technology partner by the year 2020. This technology came into light when the <a href="https://bit.ly/2PgQo7y"> iPhoneX </a> was launched with one of the best features - Facial ID.</p>
+
+        <p>In the future, with the help of this technology, the software development companies will be using this technology for developing a series of applications. By 2020, you will be able to unlock your house, car, etc., with the help of facial technology.</p>
+      </div>
+    </section>
+    <section id="section6" data-nav="Automation">
+      <div class="landing__container">
+        <h2> 6. Automation :</h2>
+        <p>Along with Artificial Intelligence, Machine Learning, Robots, and Deep Learning, automation has moved quite ahead in the production lines. From packing the product boxes to delivering the items at the doors of the customers, automation seems to be one of the most awaited technologies of the year 2020.</p>
+
+        <p>Food, medical, beverage & customer service will also become further automated and streamlined by the time 2020 hits.</p>
+      </div>
+    </section>
+    <section id="section7" data-nav="Cognitive Technology">
+      <div class="landing__container">
+        <h2> 7. Cognitive Technology :</h2>
+        <p>The cognitive technology umbrella comprises of things like speech recognition and natural language processing (NLP). Combined, these various technologies are able to optimize and automate a lot of tasks that were previously done by individuals, including certain aspects of analytics and accounting.</p>
+
+        <p>Even though cognitive technologies have a wide range of applications, it is predicted that the industry sector most affected by this technology initially will be the software sector with about 93% of the software development companies are projected to adopt these technologies by 2020.</p>
+      </div>
+    </section>
+    <section id="section8" data-nav="Virtual Reality">
+      <div class="landing__container">
+        <h2> 8. Virtual Reality and Augmented Reality :</h2>
+        <p>A few of the many industry sectors that are taking advantage of AR/VR technologies and exploring all options are the manufacturing healthcare and transport industry. The VR headsets today, are difficult to use since they require sensors and cables attached to a computer, however, these devices, too, are evolving, with the help of the mobile and wireless devices.</p>
+
+        <p>This evolution will allow businesses to build AR/VR features into larger & more holistic applications, creating a complete set of capabilities for more meaningful customer experiences.</p>
+      </div>
+    </section>
+    <section id="section9" data-nav="Prescriptive Analysis">
+      <div class="landing__container">
+        <h2> 9. Prescriptive Analysis :</h2>
+        <p>The digital technology in the year 2020, along with giving the businesses the data related to how customers will react, will also guide them on how they shall act when the customer behaves in a certain way. What was once only a source of insights will now become a complete guide of the next profitable move.</p>
+      </div>
+    </section>
+    <section id="section10" data-nav=" Computing">
+      <div class="landing__container">
+        <h2> 10. Edge Computing :</h2>
+        <p>Edge computing is a kind of computing that is done at or near the source of the data, instead of relying on the cloud at one of the many data centers to do all the necessary work.</p>
+
+        <p>Even though things move instantly to and from the cloud, there are still some issues when data hops around the world. For such reasons, edge computing will mean faster response times for many of the internet-connected devices.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <p><a href="https://www.udacity.com/" style="color:#02b3e4;">&copy Udacity</a> </p>
+  </footer>
+<script src="js/app.js"></script>
+</body>
+</html>

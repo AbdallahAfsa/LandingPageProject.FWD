@@ -1,13 +1,48 @@
-# Dynamic Landing Page Project.
+# Landing Page Project
 
+### Future Work is Digital (FWD) - Web Development Professional Track - first project.
+
+
+## Table of Contents
+
+* [Architecture](#architecture)
+* [About](#about)
+* [Requirements](#requirements)
+* [Resources](#resources)
+
+## Architecture
+
+```
+css/styles.css    
+js/app.js
+index.html
+README.md
+```
+
+## About
+
+The HTML page consists of:
+
+*Nav bar ( dynamically created based on the sections of the page )
+
+*Main hero section
+
+*Ten sections
+
+*footer
 
 
 ## Requirements
 
-*first you should link app.js file to your html file.
-*Page should have at least 4 sections.
-*Add a dynamic navigation bar list for every section.
-*highlight the current section within view.
-*Make sure the final results are usalble across all devices.
+*Start by linking your app.js
+*Build out your HTML and at least 4 content sections ( provided in the starter code) [+ added one more section]
+*Build the navigation menu
+*Add the functionality to scroll to sections
+*Add functionality to distinguish the section in view
+*final results should be usalble across all devices.
 #suggestion:
 *Adding more content and making it clear which menu leads to which section on the page.
+
+## Resources
+Fira Sans font from Google Fonts.
+[https://hackernoon.com](#https://hackernoon.com/top-10-future-technologies-a88ee54c3d4c)

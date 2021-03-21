@@ -40,9 +40,8 @@ The HTML page consists of:
 *Add the functionality to scroll to sections
 *Add functionality to distinguish the section in view
 *final results should be usalble across all devices.
-#suggestion:
 *Adding more content and making it clear which menu leads to which section on the page.
 
 ## Resources
 Fira Sans font from Google Fonts.
-[https://hackernoon.com](#https://hackernoon.com/top-10-future-technologies-a88ee54c3d4c)
+* [https://hackernoon.com](#https://bit.ly/2P9ZC5s)

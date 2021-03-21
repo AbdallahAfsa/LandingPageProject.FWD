@@ -1,2 +1,9 @@
-# dynamicLandingPage
-This project requires you to build a multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page.
+#  Landing Page Project
+
+#first you should link app.js file to your html file.
+#Page should have at least 4 sections.
+#Add a dynamic navigation bar list for every section.
+#highlight the current section within view.
+#Make sure the final results are usalble across all devices.
+#suggestion:
+*Adding more content and making it clear which menu leads to which section on the page.

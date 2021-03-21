@@ -44,7 +44,7 @@ The HTML page consists of:
 
 ## Resources
 Fira Sans font from Google Fonts.
-* [Website content] (#https://bit.ly/2P9ZC5s)
+* [Website content]=>(https://bit.ly/2P9ZC5s)
 
 ## Developer
 
